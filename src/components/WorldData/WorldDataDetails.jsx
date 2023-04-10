@@ -41,6 +41,11 @@ const WorldDataDetails = ({ inputValue, sortOption, sortOption2 }) => {
       case "Default":
         sortedCountries = [...worldDataDetails];
         break;
+      case "Alphabetic":
+        sortedCountries = sortedCountries.sort((a, b) =>
+          a.country.localeCompare(b.country)
+        );
+        break;
     }
 
     // Filter by continent
@@ -68,7 +73,14 @@ const WorldDataDetails = ({ inputValue, sortOption, sortOption2 }) => {
   };
 
   return (
-    <div style={{ height: "350px", overflowY: "scroll", overflowX: "hidden" }}>
+    <div
+      style={{
+        height: "350px",
+
+        overflowX: "hidden",
+        backgroundColor: "#1e2b3e",
+      }}
+    >
       <table
         className={styles.worlddatadetails__container}
         style={{ tableLayout: "fixed" }}

@@ -14,6 +14,7 @@ const WorldDataSelect = ({
         <option value="Confirmed">Sort by cases</option>
         <option value="Deaths">Sort by deaths</option>
         <option value="Actives">Sort by Active Cases</option>
+        <option value="Alphabetic">Alphabetically</option>
       </select>
       <select
         className="worlddata__container__select__continent"

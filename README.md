@@ -22,5 +22,5 @@ Api I was using: https://rapidapi.com/api-sports/api/covid-193
 
 ## How It looks
 
-<div align="center">![obraz](https://user-images.githubusercontent.com/102172769/230901451-d4a57f44-a6ce-4ef4-a43c-b7ee3f73a2e7.png)</div>
+![obraz](https://user-images.githubusercontent.com/102172769/230901451-d4a57f44-a6ce-4ef4-a43c-b7ee3f73a2e7.png)
 

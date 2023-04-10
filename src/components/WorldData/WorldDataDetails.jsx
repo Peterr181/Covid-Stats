@@ -76,10 +76,10 @@ const WorldDataDetails = ({ inputValue, sortOption, sortOption2 }) => {
     <div
       style={{
         height: "350px",
-
         overflowX: "hidden",
         backgroundColor: "#1e2b3e",
       }}
+      className={styles.table__container}
     >
       <table
         className={styles.worlddatadetails__container}

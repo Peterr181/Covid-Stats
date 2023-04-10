@@ -12,7 +12,7 @@ const Modal = ({ handleCloseModal }) => {
     <div className={styles.modal__overlay}>
       <div className={styles.modal__container}>
         <div className={styles.modal__header}>
-          <h2>SHORT INTRO</h2>
+          <h2>SHORT INFO</h2>
           <p className={styles.modal__close} onClick={handleCloseClick}>
             <FontAwesomeIcon icon={faTimes} />
           </p>

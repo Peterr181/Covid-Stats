@@ -8,7 +8,7 @@ My main goal was to create web application with functionalities to filter and so
 
 ## Solution
 
-The solution consists of an React web application, and scss pre-compliator for css.
+The solution consists of an React web application, and scss pre-compliator for css. It's fully responsive on all devices!
 
 You can view the demo [here](https://covidstats-peter.netlify.app/).
 

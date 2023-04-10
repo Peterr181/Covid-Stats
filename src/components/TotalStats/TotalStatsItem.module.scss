@@ -1,0 +1,44 @@
+.totalstats__container__items__item {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e2b3e;
+  padding: 1.6rem;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 20px;
+  transition: 0.2s all;
+  box-shadow: hsla(0, 0%, 100%, 0.1) 0 1px 1px 0 inset,
+    rgba(17, 17, 32, 0.078) 0 20px 50px -20px,
+    rgba(0, 0, 0, 0.173) 0 10px 50px -30px;
+  &:hover {
+    transform: translateY(-10px);
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  &__newconfirmed {
+    color: greenyellow;
+    font-size: 2.5rem;
+  }
+
+  &__newdeads {
+    color: red;
+    font-size: 2.5rem;
+  }
+
+  &__newrecovered {
+    color: blueviolet;
+    font-size: 2.5rem;
+  }
+
+  &__total {
+    color: #6c757d;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .totalstats__container__items__item {
+    margin: 2rem;
+  }
+}

@@ -22,7 +22,7 @@ Api I was using: https://rapidapi.com/api-sports/api/covid-193
 
 ---
 
-## How It looks
+## How main panel looks:
 
-![obraz](https://user-images.githubusercontent.com/102172769/230938726-8b8bb09a-c155-43f2-9677-36f8db7e9c6a.png)
+![obraz](https://user-images.githubusercontent.com/102172769/233869000-21eb3b7b-3d3f-42c9-a06a-db7416750e59.png)
 
